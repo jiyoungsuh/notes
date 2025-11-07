@@ -1,0 +1,9 @@
+{
+  "workbench.colorTheme": "Solarized Light",
+  "markdownlint.config": {
+    "default": false
+  },
+  "editor.renderWhitespace": "none",
+  "editor.lineNumbers": "on",
+  "editor.glyphMargin": false
+}
