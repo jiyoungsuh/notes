@@ -43,7 +43,7 @@ echo ""
 echo "📊 Daily Breakdown:"
 # Generate dates from Monday to today
 current_date="$MONDAY"
-while true do
+while true; do
     day_name=$(date -j -f "%Y-%m-%d" "$current_date" "+%A" 2>/dev/null || date -d "$current_date" "+%A" 2>/dev/null)
     echo ""
     echo "--- $day_name ($current_date) ---"
